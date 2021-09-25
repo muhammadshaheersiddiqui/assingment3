@@ -1,0 +1,12 @@
+void main(){
+
+  var celciusTemp = 36;
+  var farTemp = (celciusTemp * (9/5))+ 32;
+  print("$celciusTemp oC is $farTemp oF");
+  
+  var far_temp = 96.8;
+  var celcius_temp= (far_temp -32) *(5/9);
+  print ("$far_temp oC is $celcius_temp oF");
+  
+    
+}

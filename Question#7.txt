@@ -1,0 +1,6 @@
+void main() {
+  var number = 5;
+  for (var i=1; i<=100; i++){
+    print (number*i);
+  }
+}

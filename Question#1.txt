@@ -1,0 +1,6 @@
+void main() {
+
+  var numbers = [12,45,22,12,22,22,100,100];
+  print (numbers.toSet().toList());
+  
+}

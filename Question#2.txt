@@ -1,0 +1,8 @@
+void main() {
+
+  var first = [1,2,3,4,5,6,7];
+  var second = [3,5,6,7,9,10];
+  var output = first.where((e) => !second.contains(e));
+  print (output);
+
+}

@@ -1,0 +1,22 @@
+void main() {
+  
+  String aplhabets = "a,e,i,o,u";
+  String finalalpha = "o";
+  var vowel;
+  
+  if (finalalpha=="a"){
+   vowel = "True";
+  }else if(finalalpha =="e"){
+    vowel = "True";
+  }else if(finalalpha =="i"){
+    vowel = "True";
+  }else if(finalalpha =="o"){
+    vowel = "True";
+  }else if (finalalpha == "u"){
+    vowel = "True";
+  }else{
+    vowel = "False";
+  }
+  print (vowel);
+  
+}
